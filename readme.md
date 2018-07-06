@@ -25,3 +25,18 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+Папка SQL дамп Базы
+Редактировать  продукты test-forgrant/admin
+Login  admin@mail.ru
+Password 123456
+Алгоритм поиск цена ---
+Ищем по какой то дате . Я взял 05.05.2016 зашил статически в IndexController
+Вообще должна быть привязка к текущей дате
+Ищем периоды в которые входит даная дата
+1)Если несколько то,   смотри какя из них короче по дням 
+2) Если несколько и кол дней одинаково. то по дате окончания определяем главную. Тоесть та которая закончиться позже будет главной
+Все период выбран
+Из нее берется дата , цена, описание и выводится в фронтенд
+test-forgrant  секция  продукты
+
+
